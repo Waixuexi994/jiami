@@ -20,7 +20,7 @@ document.querySelector('#app').innerHTML = `
             <a href="https://api.apicore.ai/login" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
               开始使用
             </a>
-            <a href="http://doc.apicore.ai" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+            <a href="https://doc.apicore.ai" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
               查看api文档
             </a>
           </div>
