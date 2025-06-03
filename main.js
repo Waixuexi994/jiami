@@ -158,71 +158,89 @@ document.querySelector('#app').innerHTML = `
 
             <div class="mt-8" id="modelContent">
               <div class="grid grid-cols-2 md:grid-cols-4 gap-8 model-content" id="languageContent">
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/chatgpt.png" alt="ChatGPT" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200 flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/K8ntq088/Chat-GPT-Logo.png" alt="ChatGPT" class="h-10 mb-1 rounded" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">ChatGPT</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/claude.png" alt="Claude" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/NjXNk8Xg/claude-ai-icon-65aa.png" alt="Claude" class="h-10 mb-1 rounded" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Claude</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/gemini.png" alt="Gemini" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/pX7vTtzp/google-gemini-icon.png" alt="Gemini" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Gemini</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/grok.png" alt="Grok" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/Y0V31jqG/xAI-Logo.png" alt="Grok" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Grok</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/deepseek.png" alt="DeepSeek" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/YqhDhBqL/deep-seek-logo-whale-1ced.png" alt="DeepSeek" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">DeepSeek</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/doubao.png" alt="豆包" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/kMY31djf/doubao-color.png" alt="豆包" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">豆包</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/qwen.png" alt="Qwen" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/1zZvCg0D/qwen.png" alt="Qwen" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Qwen</span>
                 </div>
               </div>
 
               <div class="grid grid-cols-2 md:grid-cols-4 gap-8 model-content hidden" id="imageContent">
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/flux.png" alt="Flux" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/DzT8SFF2/flux-flux-logo-png-seeklogo-480255-transparent.png" alt="Flux" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Flux</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/dalle.png" alt="Dalle" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/K8ntq088/Chat-GPT-Logo.png" alt="Dalle" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Dalle</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/kling.png" alt="Kling" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/wjKrZxDc/kling-color.png" alt="Kling" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Kling</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/doubao.png" alt="豆包" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/kMY31djf/doubao-color.png" alt="豆包" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Qwen</span>
                 </div>
               </div>
 
               <div class="grid grid-cols-2 md:grid-cols-4 gap-8 model-content hidden" id="videoContent">
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/kling.png" alt="Kling" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/wjKrZxDc/kling-color.png" alt="Kling" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Kling</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/pika.png" alt="Pika" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/1zZvCg0D/qwen.png" alt="Pika" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Pika</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/runway.png" alt="Runway" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/T2gNmMzK/runway.png" alt="Runway" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Runway</span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/jimeng.png" alt="即梦" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/QCQ6r1QQ/image.png" alt="即梦" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide"></span>
                 </div>
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/veo3.png" alt="Veo3" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/pX7vTtzp/google-gemini-icon.png" alt="Veo3" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Veo3</span>
                 </div>
               </div>
 
               <div class="grid grid-cols-2 md:grid-cols-4 gap-8 model-content hidden" id="musicContent">
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/suno.png" alt="Suno" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/X7WHk1WQ/suno.png" alt="Suno" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">Suno</span>
                 </div>
               </div>
 
               <div class="grid grid-cols-2 md:grid-cols-4 gap-8 model-content hidden" id="voiceContent">
-                <div class="flex items-center justify-center">
-                  <img src="https://www.apicore.ai/tts.png" alt="TTS" class="h-8" />
+                <div class="flex items-center justify-center flex-col transition-transform hover:scale-105 duration-200">
+                  <img src="https://i.postimg.cc/K8ntq088/Chat-GPT-Logo.png" alt="TTS" class="h-8" />
+				  <span class="text-white text-[13px] font-medium tracking-wide">TTS</span>
                 </div>
               </div>
             </div>
