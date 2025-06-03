@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(100, 108, 255, 0.1), rgba(0, 0, 0, 0));
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 区块过渡动画 */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 卡片悬停效果 */
+.bg-\[\#1a1a1a\] {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bg-\[\#1a1a1a\]:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -5px rgba(100, 108, 255, 0.1);
+}
+
+/* 按钮悬停动画 */
+.bg-primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-primary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: transform 0.6s ease-out;
+}
+
+.bg-primary:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* 模型标签页悬停效果 */
+#modelTabs button {
+  transition: all 0.3s ease;
+}
+
+#modelTabs button:hover {
+  background: rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+/* 模型logo悬停效果 */
+.model-content img {
+  transition: transform 0.3s ease;
+}
+
+.model-content img:hover {
+  transform: scale(1.1);
+}
