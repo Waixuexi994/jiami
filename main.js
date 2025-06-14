@@ -16,14 +16,14 @@ document.querySelector('#app').innerHTML = `
           <p class="text-lg text-primary mb-8">
             邀请码邀请好友注册终身获得3%返利
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://api.apicore.ai/login" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
-              开始使用
-            </a>
-            <a href="https://doc.apicore.ai" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
-              查看api文档
-            </a>
-          </div>
+	<div class="flex flex-col sm:flex-row gap-4 justify-center">
+	  <a href="https://api.apicore.ai/login" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+	    开始使用
+	  </a>
+	  <a href="https://doc.apicore.ai" target="_blank" rel="noopener noreferrer" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+	    查看api文档
+	  </a>
+	</div>
           
           <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
             <div class="text-center">
