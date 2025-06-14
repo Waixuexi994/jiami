@@ -86,3 +86,11 @@ section.visible {
 .model-content img:hover {
   transform: scale(1.1);
 }
+/* 隐藏滚动条的跨浏览器解决方案 */
+html, body {
+    -ms-overflow-style: none;  /* IE 和 Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
