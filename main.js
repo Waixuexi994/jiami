@@ -568,12 +568,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 调整 Chatway 浮窗位置，适配 iframe 显示
+// 兼容 Chatway 最新浮窗位置调整（使用类名）
 setTimeout(() => {
-  const launcher = document.getElementById('chatway-launcher');
+  const launcher = document.querySelector('[class*="launcher"], [id*="launcher"]');
   if (launcher) {
     launcher.style.bottom = '120px';
     launcher.style.right = '20px';
     launcher.style.zIndex = '9999';
+  } else {
+    console.log('Chatway launcher not found.');
   }
-}, 1000);
+}, 1500); // 延迟略长，确保 Chatway 脚本完全加载
+
