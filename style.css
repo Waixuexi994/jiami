@@ -97,7 +97,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 /* 调整 Chatway 聊天按钮浮窗位置 */
 #chatway-launcher {
-  bottom: 100px !important;
+  bottom: 200px !important;
   right: 20px !important;
   z-index: 9999;
 }
