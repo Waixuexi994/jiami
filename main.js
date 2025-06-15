@@ -567,3 +567,13 @@ document.addEventListener('DOMContentLoaded', () => {
     sectionObserver.observe(section);
   });
 });
+
+// 调整 Chatway 浮窗位置，适配 iframe 显示
+setTimeout(() => {
+  const launcher = document.getElementById('chatway-launcher');
+  if (launcher) {
+    launcher.style.bottom = '120px';
+    launcher.style.right = '20px';
+    launcher.style.zIndex = '9999';
+  }
+}, 1000);
