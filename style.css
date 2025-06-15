@@ -94,3 +94,10 @@ html, body {
 html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
 }
+
+/* 调整 Chatway 聊天按钮浮窗位置 */
+#chatway-launcher {
+  bottom: 100px !important;
+  right: 20px !important;
+  z-index: 9999;
+}
