@@ -270,7 +270,7 @@ document.querySelector('#app').innerHTML = `
             </div>
           </div>
           <div class="text-center mt-8">
-            <a href="https://api.apicore.ai/pricing" target="_blank" class="inline-block bg-primary/10 text-primary px-6 py-2 rounded-lg hover:bg-primary/20 transition duration-300">
+            <a href="https://api..ai/pricing" target="_blank" class="inline-block bg-primary/10 text-primary px-6 py-2 rounded-lg hover:bg-primary/20 transition duration-300">
               查看更多模型
             </a>
           </div>
@@ -326,7 +326,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div>
                   <h3 class="text-xl font-bold text-white mb-3">实惠的定价与模型分组系统</h3>
-                  <p class="text-gray-400">APIcore.ai提供令牌分组能够自定义选择哪个类型的api，也可以通过免费试用体验我们的 AI 接口</p>
+                  <p class="text-gray-400">.ai提供令牌分组能够自定义选择哪个类型的api，也可以通过免费试用体验我们的 AI 接口</p>
                 </div>
               </div>
             </div>
@@ -354,7 +354,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div>
                   <h3 class="text-xl font-bold text-white mb-3">24小时全天候监控与客户支持</h3>
-                  <p class="text-gray-400">APIcore.ai 提供 24 小时全天候监控与客户支持，确保您的 API 高效稳定运行，我们的专业技术团队随时为您提供帮助。</p>
+                  <p class="text-gray-400">APICore.ai 提供 24 小时全天候监控与客户支持，确保您的 API 高效稳定运行，我们的专业技术团队随时为您提供帮助。</p>
                 </div>
               </div>
             </div>
@@ -385,25 +385,25 @@ document.querySelector('#app').innerHTML = `
         <div class="max-w-3xl mx-auto space-y-6">
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">什么是 APIcore.ai？它是如何工作的？</h3>
+              <h3 class="text-xl text-white font-semibold">什么是 APICore.ai？它是如何工作的？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
             </button>
             <div class="mt-4 text-gray-400 hidden">
-              APIcore.ai 是一个 AI 平台，为开发者和企业提供先进的 AI 接口，它提供强大的 AI 接口，支持文本生成、音乐创作、视频生成等多种功能。
+              APICore.ai 是一个 AI 平台，为开发者和企业提供先进的 AI 接口，它提供强大的 AI 接口，支持文本生成、音乐创作、视频生成等多种功能。
             </div>
           </div>
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">APIcore.ai 是否提供免费试用？</h3>
+              <h3 class="text-xl text-white font-semibold">APICore.ai 是否提供免费试用？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
             </button>
             <div class="mt-4 text-gray-400 hidden">
-              是的，APIcore.ai 提供免费试用，您可以在开始付费计划前，先体验我们的 AI 接口功能。这有助于开发者和企业在实际环境中测试功能。
+              是的，APICore.ai 提供免费试用，您可以在开始付费计划前，先体验我们的 AI 接口功能。这有助于开发者和企业在实际环境中测试功能。
             </div>
           </div>
 
@@ -411,19 +411,19 @@ document.querySelector('#app').innerHTML = `
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">APIcore.ai 的定价模型是什么？</h3>
+              <h3 class="text-xl text-white font-semibold">APICore.ai 的定价模型是什么？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
             </button>
             <div class="mt-4 text-gray-400 hidden">
-              APIcore.ai 提供灵活的定价体系，采用基于1计算的定价模型，使初创企业或者个人独立开发也能负担得起。详细的定价计划可以在我们的网站上查看，适应不同的使用需求。
+              APICore.ai 提供灵活的定价体系，采用基于1计算的定价模型，使初创企业或者个人独立开发也能负担得起。详细的定价计划可以在我们的网站上查看，适应不同的使用需求。
             </div>
           </div>
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">如何将 APIcore.ai 的 API 集成到我的项目中？</h3>
+              <h3 class="text-xl text-white font-semibold">如何将 APICore.ai 的 API 集成到我的项目中？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
@@ -435,7 +435,7 @@ document.querySelector('#app').innerHTML = `
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">APIcore.ai适用于哪些人群？</h3>
+              <h3 class="text-xl text-white font-semibold">APICore.ai适用于哪些人群？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
@@ -448,7 +448,7 @@ document.querySelector('#app').innerHTML = `
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">APIcore.ai提供哪些技术支持？</h3>
+              <h3 class="text-xl text-white font-semibold">APICore.ai提供哪些技术支持？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
@@ -460,7 +460,7 @@ document.querySelector('#app').innerHTML = `
 
           <div class="border-b border-gray-800 pb-6">
             <button class="w-full flex items-center justify-between text-left" data-faq>
-              <h3 class="text-xl text-white font-semibold">APIcore.ai是否支持多用户同时使用？</h3>
+              <h3 class="text-xl text-white font-semibold">APICore.ai是否支持多用户同时使用？</h3>
               <svg class="w-6 h-6 text-primary transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
               </svg>
