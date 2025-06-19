@@ -54,7 +54,7 @@ document.querySelector('#app').innerHTML = `
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="bg-[#1a1a1a] p-6 rounded-lg">
             <h3 class="text-xl font-bold text-primary mb-4">全网模型覆盖</h3>
-            <p class="text-gray-300">集成国内外主流大模型，一个API即可访问所有模型，简化开发流程</p>
+            <p class="text-gray-300">集成国内外主流大模型，两个API即可访问所有模型，简化开发流程</p>
           </div>
           <div class="bg-[#1a1a1a] p-6 rounded-lg">
             <h3 class="text-xl font-bold text-primary mb-4">OpenAI直连优惠</h3>
