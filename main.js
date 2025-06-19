@@ -146,7 +146,7 @@ document.querySelector('#app').innerHTML = `
                 <h3 class="text-xl font-bold text-gray-300">比较项</h3>
               </div>
               <div class="p-6 text-center border-l border-gray-700">
-                <h3 class="text-xl font-bold text-primary">APICore</h3>
+                <h3 class="text-xl font-bold text-primary">APICore.ai</h3>
               </div>
               <div class="p-6 text-center border-l border-gray-700">
                 <h3 class="text-xl font-bold text-gray-300">OpenRouter.ai</h3>
@@ -405,7 +405,7 @@ document.querySelector('#app').innerHTML = `
                 <h3 class="text-xl font-bold text-gray-300">AI 模型</h3>
               </div>
               <div class="p-6 text-center border-l border-gray-700">
-                <h3 class="text-xl font-bold text-primary">APICore 价格</h3>
+                <h3 class="text-xl font-bold text-primary">APICore.ai 价格</h3>
               </div>
               <div class="p-6 text-center border-l border-gray-700">
                 <h3 class="text-xl font-bold text-gray-300">OpenRouter.ai 价格</h3>
