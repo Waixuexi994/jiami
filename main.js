@@ -54,7 +54,7 @@ document.querySelector('#app').innerHTML = `
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="bg-[#1a1a1a] p-6 rounded-lg">
             <h3 class="text-xl font-bold text-primary mb-4">全网模型覆盖</h3>
-            <p class="text-gray-300">集成国内外主流大模型，两个API即可访问所有模型，简化开发流程</p>
+            <p class="text-gray-300">集成国内外主流大模型，一个API即可访问所有模型，简化开发流程</p>
           </div>
           <div class="bg-[#1a1a1a] p-6 rounded-lg">
             <h3 class="text-xl font-bold text-primary mb-4">OpenAI直连优惠</h3>
@@ -126,6 +126,265 @@ document.querySelector('#app').innerHTML = `
               <div>
                 <h3 class="text-xl font-bold text-white mb-3">音频生成与合成</h3>
                 <p class="text-gray-400">支持文本转语音、音乐生成、音频编辑等功能，提供自然流畅的语音合成服务</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="py-20 bg-[#111]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-16">我们相比 OpenRouter.ai 的优势</h2>
+        
+        <!-- Desktop Table View -->
+        <div class="hidden lg:block max-w-6xl mx-auto">
+          <div class="bg-[#1a1a1a] rounded-xl overflow-hidden">
+            <div class="grid grid-cols-3 bg-[#0a0a0a]">
+              <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-300">比较项</h3>
+              </div>
+              <div class="p-6 text-center border-l border-gray-700">
+                <h3 class="text-xl font-bold text-primary">APICore</h3>
+              </div>
+              <div class="p-6 text-center border-l border-gray-700">
+                <h3 class="text-xl font-bold text-gray-300">OpenRouter.ai</h3>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">模型价格</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">更低，特别是 GPT-4、Claude、DeepSeek 等主流模型价格更实惠，按 Token 计费更透明</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">价格偏高</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">响应速度</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">速度快，国内访问无障碍</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">国际链路复杂，可能影响连接质量</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">使用门槛</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">零门槛试用，国内网络登录即可使用</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">需要海外网络，部分功能需登录</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">中文支持</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">中文文档完善，支持中文界面及客服，客服支持快速响应</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">中文支持有限</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">用户社群</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">建有微信社群，社群活跃，反馈直达开发团队</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">社区互动较少</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">API接入便捷性</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">提供丰富的 API 示例，多种语言调用代码</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">示例不多，配置复杂</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">稳定性和维护</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">多线路容灾自动切换，确保高可用</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">无说明</div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white">计费与结算</div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">支持中文发票，对公账户结算</div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">无法开具中文发票</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Card View -->
+        <div class="lg:hidden space-y-6">
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              模型价格
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">更低，特别是 GPT-4、Claude、DeepSeek 等主流模型价格更实惠，按 Token 计费更透明</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">价格偏高</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              响应速度
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">速度快，国内访问无障碍</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">国际链路复杂，可能影响连接质量</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              使用门槛
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">零门槛试用，国内网络登录即可使用</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">需要海外网络，部分功能需登录</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              中文支持
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">中文文档完善，支持中文界面及客服，客服支持快速响应</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">中文支持有限</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              用户社群
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">建有微信社群，社群活跃，反馈直达开发团队</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">社区互动较少</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              API接入便捷性
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">提供丰富的 API 示例，多种语言调用代码</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">示例不多，配置复杂</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              稳定性和维护
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">多线路容灾自动切换，确保高可用</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">无说明</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <span class="w-2 h-2 bg-primary rounded-full"></span>
+              计费与结算
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">支持中文发票，对公账户结算</div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">无法开具中文发票</div>
               </div>
             </div>
           </div>
@@ -270,7 +529,7 @@ document.querySelector('#app').innerHTML = `
             </div>
           </div>
           <div class="text-center mt-8">
-            <a href="https://api..ai/pricing" target="_blank" class="inline-block bg-primary/10 text-primary px-6 py-2 rounded-lg hover:bg-primary/20 transition duration-300">
+            <a href="https://api.apicore.ai/pricing" target="_blank" class="inline-block bg-primary/10 text-primary px-6 py-2 rounded-lg hover:bg-primary/20 transition duration-300">
               查看更多模型
             </a>
           </div>
@@ -326,7 +585,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div>
                   <h3 class="text-xl font-bold text-white mb-3">实惠的定价与模型分组系统</h3>
-                  <p class="text-gray-400">.ai提供令牌分组能够自定义选择哪个类型的api，也可以通过免费试用体验我们的 AI 接口</p>
+                  <p class="text-gray-400">APICore.ai提供令牌分组能够自定义选择哪个类型的api，也可以通过免费试用体验我们的 AI 接口</p>
                 </div>
               </div>
             </div>
