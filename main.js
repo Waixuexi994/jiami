@@ -133,7 +133,7 @@ document.querySelector('#app').innerHTML = `
       </div>
     </section>
 
-    <!-- Comparison Section -->
+    <!-- Model Price Comparison Section -->
     <section class="py-20 bg-[#111]">
       <div class="container mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-16">我们相比 OpenRouter.ai 的优势</h2>
@@ -387,6 +387,314 @@ document.querySelector('#app').innerHTML = `
                 <div class="text-gray-400">无法开具中文发票</div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price Comparison Section -->
+    <section class="py-20 bg-[#0a0a0a]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-16">我们相比 OpenRouter.ai 的价格对比</h2>
+        
+        <!-- Desktop Table View -->
+        <div class="hidden lg:block max-w-6xl mx-auto">
+          <div class="bg-[#1a1a1a] rounded-xl overflow-hidden">
+            <div class="grid grid-cols-3 bg-[#0a0a0a]">
+              <div class="p-6 text-center">
+                <h3 class="text-xl font-bold text-gray-300">AI 模型</h3>
+              </div>
+              <div class="p-6 text-center border-l border-gray-700">
+                <h3 class="text-xl font-bold text-primary">APICore 价格</h3>
+              </div>
+              <div class="p-6 text-center border-l border-gray-700">
+                <h3 class="text-xl font-bold text-gray-300">OpenRouter.ai 价格</h3>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/K8ntq088/Chat-GPT-Logo.png" alt="ChatGPT" class="h-6 w-6 rounded" />
+                  ChatGPT (GPT-4o)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥10 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥40 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 45%</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥18 / 1M tokens (输入)</div>
+                  <div>¥72 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/NjXNk8Xg/claude-ai-icon-65aa.png" alt="Claude" class="h-6 w-6 rounded" />
+                  Claude (Sonnet 4.0)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥15 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥75 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 30%</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥21.6 / 1M tokens (输入)</div>
+                  <div>¥108 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/pX7vTtzp/google-gemini-icon.png" alt="Gemini" class="h-6 w-6" />
+                  Gemini (Pro 1.5)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥2.5 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥20 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 72%</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥9 / 1M tokens (输入)</div>
+                  <div>¥72 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/DzT8SFF2/flux-flux-logo-png-seeklogo-480255-transparent.png" alt="Flux" class="h-6 w-6" />
+                  Flux (Pro)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥0.12 / 图片</div>
+                  <div class="text-sm text-gray-400 mt-1">超高性价比</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥0.36 / 图片</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/Y0V31jqG/xAI-Logo.png" alt="Grok" class="h-6 w-6" />
+                  Grok3 (Beta)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥8 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥40 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 63%</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥21.6 / 1M tokens (输入)</div>
+                  <div>¥108 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-3 border-t border-gray-700">
+              <div class="p-6 border-r border-gray-700">
+                <div class="text-lg font-semibold text-white flex items-center gap-2">
+                  <img src="https://i.postimg.cc/YqhDhBqL/deep-seek-logo-whale-1ced.png" alt="DeepSeek" class="h-6 w-6" />
+                  DeepSeek (V3)
+                </div>
+              </div>
+              <div class="p-6 border-r border-gray-700 bg-primary/5">
+                <div class="text-gray-300">
+                  <div class="font-semibold text-primary">¥0.56 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥2.24 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">极致性价比，国产之光</div>
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-gray-400">
+                  <div>¥2.16 / 1M tokens (输入)</div>
+                  <div>¥6.33 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Card View -->
+        <div class="lg:hidden space-y-6">
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/K8ntq088/Chat-GPT-Logo.png" alt="ChatGPT" class="h-6 w-6 rounded" />
+              ChatGPT (GPT-4o)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">$2.5 / 1M tokens (输入)</div>
+                  <div class="font-semibold">$10 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 45%</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>$5 / 1M tokens (输入)</div>
+                  <div>$15 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/NjXNk8Xg/claude-ai-icon-65aa.png" alt="Claude" class="h-6 w-6 rounded" />
+              Claude (Sonnet 3.5)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">$1.65 / 1M tokens (输入)</div>
+                  <div class="font-semibold">$8.25 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 45%</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>$3 / 1M tokens (输入)</div>
+                  <div>$15 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/pX7vTtzp/google-gemini-icon.png" alt="Gemini" class="h-6 w-6" />
+              Gemini (Pro 2.5)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">$1.25 / 1M tokens (输入)</div>
+                  <div class="font-semibold">$5 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">比官方价格低 50%</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>$2.5 / 1M tokens (输入)</div>
+                  <div>$10 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/DzT8SFF2/flux-flux-logo-png-seeklogo-480255-transparent.png" alt="Flux" class="h-6 w-6" />
+              Flux (Pro)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">$0.03 / 图片</div>
+                  <div class="text-sm text-gray-400 mt-1">超高性价比</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>$0.05 / 图片</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/Y0V31jqG/xAI-Logo.png" alt="Grok" class="h-6 w-6" />
+              Grok3 (Beta)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">¥8 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">¥40 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">独家接入，价格优势明显</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>¥21.6 / 1M tokens (输入)</div>
+                  <div>¥108 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#1a1a1a] rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <img src="https://i.postimg.cc/YqhDhBqL/deep-seek-logo-whale-1ced.png" alt="DeepSeek" class="h-6 w-6" />
+              DeepSeek (V3)
+            </h3>
+            <div class="space-y-3">
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <div class="text-sm text-primary font-medium mb-1">APICore</div>
+                <div class="text-gray-300">
+                  <div class="font-semibold">$0.14 / 1M tokens (输入)</div>
+                  <div class="font-semibold text-primary">$0.28 / 1M tokens (输出)</div>
+                  <div class="text-sm text-gray-400 mt-1">极致性价比，国产之光</div>
+                </div>
+              </div>
+              <div class="bg-[#0a0a0a] p-4 rounded-lg">
+                <div class="text-sm text-gray-400 font-medium mb-1">OpenRouter.ai</div>
+                <div class="text-gray-400">
+                  <div>$0.27 / 1M tokens (输入)</div>
+                  <div>$1.1 / 1M tokens (输出)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <div class="bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/30 rounded-xl p-6">
+            <h3 class="text-xl font-bold text-white mb-2">💰 价格优势说明</h3>
+            <p class="text-gray-300">
+              我们直接对接官方API，去除中间环节，为您提供更优惠的价格。所有价格均为实时更新，确保您享受到最具竞争力的定价。
+            </p>
           </div>
         </div>
       </div>
