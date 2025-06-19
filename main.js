@@ -20,8 +20,8 @@ document.querySelector('#app').innerHTML = `
 	  <a href="https://api.apicore.ai/login" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
 	    开始使用
 	  </a>
-	  <a href="https://doc.apicore.ai" target="_blank" rel="noopener noreferrer" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
-	    查看api文档
+	  <a href="https://api.apicore.ai/pricing" target="_blank" rel="noopener noreferrer" class="border border-primary hover:border-secondary text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+	    查看模型列表
 	  </a>
 	</div>
           
